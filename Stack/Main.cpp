@@ -18,10 +18,10 @@ int main()
 
     while(iChoice != 0)
     {
-        printf("1.Push\n2.Pop\n3.Peep\n4.Display stack\n5.Count the number of elements\n0.Exit\n");
-        printf("---------------------------------------\n");
-        printf("Enter your choice\n");
-        scanf("%d",&iChoice);
+        cout<<"1.Push\n2.Pop\n3.Peep\n4.Display stack\n5.Count the number of elements\n0.Exit\n";
+        cout<<"---------------------------------------\n";
+        cout<<"Enter your choice\n";
+        cin>>iChoice;
 
         switch(iChoice)
         {
@@ -47,7 +47,7 @@ int main()
 
             case 0 : break;
 
-            default : printf("Error : invalid choice\n");
+            default : cout<<"Error : invalid choice\n";
         }
 
     }
